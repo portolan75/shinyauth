@@ -1,11 +1,17 @@
 # shinyauth
 Dockerfile for building Docker Image (shinyauth R environment) to run Stock Analyser Shiny app.
 
+Installs linux libraries:
+- lbzip2
+- libssl-dev
+- libsasl2-dev
+- libtiff-dev
+
 Installs R packages:
 
 - shiny-verse:latest (Shiny Server from rocker/shiny-verse)
 - shinyWidgets
-- shinythemes
+- bslib
 - shinyjs
 - mongolite
 - jsonlite
