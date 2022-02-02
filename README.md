@@ -6,6 +6,7 @@ Installs linux libraries:
 - libssl-dev
 - libsasl2-dev
 - libtiff-dev
+- libxt6
 
 Installs R packages:
 
