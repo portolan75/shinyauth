@@ -7,6 +7,7 @@ RUN apt-get update -qq \
   libssl-dev \
   libsasl2-dev \
   libtiff-dev \
+  libxt6 \
   && install2.r --error --deps TRUE \
   # R packages from CRAN
   shinyWidgets \
