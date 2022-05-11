@@ -17,6 +17,7 @@ RUN apt-get update -qq \
   jsonlite \
   config \
   remotes \
+  quantmod \
   tidyquant \
   plotly \
   # R packages from GitHub (shinuauthr)
