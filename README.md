@@ -18,6 +18,7 @@ Installs R packages:
 - jsonlite
 - config
 - remotes
+- quantmod
 - tidyquant
 - plotly
 - shinyauthr (from GitHub: https://github.com/PaulC91/shinyauthr)
