@@ -8,13 +8,12 @@ RUN apt-get update -qq \
   gdebi-core \
   pandoc \
   libudunits2-dev \
-  librsvg2-dev\
+  librsvg2-dev \
   # From previous Stock Analyser Dockerfile
   lbzip2 \ 
   libssl-dev \
   libsasl2-dev \
   libtiff-dev \
-  # Update necessary 
   libxt6 \
   # Necessary for tidyverse
   libfontconfig1-dev \
@@ -22,7 +21,7 @@ RUN apt-get update -qq \
   pkg-config \
   # Libraries for fontsconfig
   freetype2-doc \
-  libharfbuzz-dev \ 
+  libharfbuzz-dev \
   libfribidi-dev \
   # Necessary for Shinyjs that depends on sodium
   libsodium-dev \
