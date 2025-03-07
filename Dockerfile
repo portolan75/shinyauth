@@ -7,6 +7,8 @@ RUN apt-get update -qq \
   libxml2-dev \
   gdebi-core \
   pandoc \
+  libudunits2-dev \
+  librsvg2-dev\
   # From previous Stock Analyser Dockerfile
   lbzip2 \ 
   libssl-dev \
@@ -33,7 +35,7 @@ RUN pkg-config --modversion freetype2
 # Install R packages from CRAN
 RUN R -e "install.packages( \
     c( \
-        # 'tidyverse', \
+        # 'tidyverse',
         'shiny', \
         'shinyWidgets', \
         'bslib', \
@@ -48,8 +50,8 @@ RUN R -e "install.packages( \
         'thematic', \
         'plotly' \
     ), \
+    dependencies = TRUE, \
     repos = 'https://cran.rstudio.com/' \
-    dependencies = TRUE \ 
 )"
 
 # Install R packages from GitHub (shinuauthr)
